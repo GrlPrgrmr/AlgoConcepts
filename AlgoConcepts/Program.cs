@@ -10,6 +10,7 @@ namespace AlgoConcepts
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Helloooo");
         }
     }
 }
