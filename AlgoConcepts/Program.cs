@@ -10,7 +10,17 @@ namespace AlgoConcepts
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Helloooo");
+            PrintDS ds = new PrintDS();
+            SelectionSort ss = new SelectionSort();
+            int[] intarr = new int[] { 4,2,1,6,8,12};
+            string[] strarr = new string[] {"paper", "flower","floppy","true","soap"};
+
+            ss.sortIntArray(intarr);
+            ss.sortStrArray(strarr);
+
+            ds.printIntegerArray(intarr);
+            ds.printStringArray(strarr);
+
         }
     }
 }
