@@ -12,14 +12,18 @@ namespace AlgoConcepts
         {
             PrintDS ds = new PrintDS();
             SelectionSort ss = new SelectionSort();
-            int[] intarr = new int[] { 4,2,1,6,8,12};
+            int[] intarr = new int[] { 5,3,4,2,8,9,1};
             string[] strarr = new string[] {"paper", "flower","floppy","true","soap"};
 
-            ss.sortIntArray(intarr);
-            ss.sortStrArray(strarr);
+            //ss.sortIntArray(intarr);
+            //ss.sortStrArray(strarr);
 
+            //ds.printIntegerArray(intarr);
+            //ds.printStringArray(strarr);
+
+            BubbleSort bs = new BubbleSort();
+            bs.sortIntArray(intarr);
             ds.printIntegerArray(intarr);
-            ds.printStringArray(strarr);
 
         }
     }
