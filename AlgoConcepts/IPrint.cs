@@ -10,5 +10,7 @@ namespace AlgoConcepts
     {
         void printIntegerArray(int[] arr);
         void printStringArray(string[] arr);
+
+        void printSingleLinkedList(SingleLinkedList LList);
     }
 }

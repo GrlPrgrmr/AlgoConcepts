@@ -16,6 +16,26 @@ namespace AlgoConcepts
             }
         }
 
+        public void printSingleLinkedList(SingleLinkedList LList)
+        {
+            
+                Node p;
+                if (LList.start == null)
+                {
+                    Console.WriteLine("Your list is empty, idiot");
+                    return;
+                }
+                Console.WriteLine("List is :  ");
+                p = LList.start;
+                while (p != null)
+                {
+                    Console.WriteLine(p.Data + " ");
+                    p = p.Next;
+                }
+                Console.WriteLine();
+            
+        }
+
         public void printStringArray(string[] arr)
         {
             for (int i = 0; i < arr.Length; i++)

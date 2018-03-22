@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlgoConcepts.Sorting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,9 +22,20 @@ namespace AlgoConcepts
             //ds.printIntegerArray(intarr);
             //ds.printStringArray(strarr);
 
-            BubbleSort bs = new BubbleSort();
-            bs.sortIntArray(intarr);
-            ds.printIntegerArray(intarr);
+            //BubbleSort bs = new BubbleSort();
+            //bs.recursiveBubbleSort(intarr,intarr.Length);
+            //ds.printIntegerArray(intarr);
+
+            //SingleLinkedList sList = new SingleLinkedList();
+            //sList.CreateList(intarr);
+
+            //BubbleSort bs = new BubbleSort();
+            //bs.bubbleSortSingleLList(sList);
+
+            InsertionSort isrt = new InsertionSort();
+            //isrt.sortIntArray(intarr);
+
+            isrt.recursiveSortIntArray(intarr,intarr.Length);
 
         }
     }
