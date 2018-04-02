@@ -32,10 +32,19 @@ namespace AlgoConcepts
             //BubbleSort bs = new BubbleSort();
             //bs.bubbleSortSingleLList(sList);
 
-            InsertionSort isrt = new InsertionSort();
+            //InsertionSort isrt = new InsertionSort();
             //isrt.sortIntArray(intarr);
 
-            isrt.recursiveSortIntArray(intarr,intarr.Length);
+            //isrt.recursiveSortIntArray(intarr,intarr.Length);
+
+            MergeSort ms = new MergeSort();
+            int[] input = new int[] { 12, 11, 13, 5, 6, 7 };
+            //ms.mergesortIntArray(input,0,input.Length-1);
+
+            SingleLinkedList sLL = new SingleLinkedList();
+            sLL.CreateList(input);
+
+            ms.MergeSortLList(sLL.start);
 
         }
     }
