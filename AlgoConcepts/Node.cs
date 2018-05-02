@@ -29,6 +29,18 @@ namespace AlgoConcepts
             this.Next = null;
         }
 
+        public Node getLastNode()
+        {
+            Node current = this;
+            Node end = new Node();
+            while(current.Next!=null)
+            {
+                current = current.Next;
+            }
+
+            end = current;
+            return end;
+        }
         public Node getMiddleNode()
         {
             Node mid = new Node();
