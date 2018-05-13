@@ -43,6 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DoublyLinkedList.cs" />
+    <Compile Include="IsSubsetSum.cs" />
+    <Compile Include="MatrixChainMultiplication.cs" />
+    <Compile Include="MinimumEditDistance.cs" />
     <Compile Include="SingleLinkedList.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="IPrint.cs" />
@@ -56,6 +59,8 @@
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="TreeConcepts\BinaryTree.cs" />
     <Compile Include="TreeConcepts\TreeNode.cs" />
+    <Compile Include="Graph\Vertex.cs" />
+    <Compile Include="Graph\UndirectedGenericGraph.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
